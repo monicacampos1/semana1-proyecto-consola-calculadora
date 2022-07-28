@@ -12,8 +12,8 @@ namespace semana1_proyecto_consola_calculadora
         {
             double a = 0;
             double b = 0;
-            //float c = a + b;
-            //float
+            //double c = a + b;
+            //double
 
 
             Console.BackgroundColor = ConsoleColor.Blue;
@@ -59,9 +59,7 @@ namespace semana1_proyecto_consola_calculadora
                     Console.WriteLine($"Tu resultado es : {a} / {b} = " + (a / b));
                     break;
             }
-            //Console.Clear();
-            //Console.BackgroundColor = ConsoleColor.Blue;
-            //((Console.ForegroundColor = ConsoleColor.White;
+            
 
             Console.Write("Presione cualquier tecla para cerrar la aplicación de la consola Calculadora...");
             Console.ReadKey();
