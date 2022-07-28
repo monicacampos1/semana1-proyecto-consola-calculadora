@@ -16,11 +16,13 @@ namespace semana1_proyecto_consola_calculadora
             //float
 
 
-            Console.BackgroundColor = ConsoleColor.Yellow;
+            Console.BackgroundColor = ConsoleColor.Blue;
             Console.ForegroundColor = ConsoleColor.Black;
+
             Console.Title = "Programa de calculadora Basica \n\n";
             
-            Console.WriteLine("semana 2 \n");
+            Console.WriteLine("Calculadora de consola en C#\r");
+            Console.WriteLine("------------------------\n");
 
             Console.WriteLine("Escribe el primer numero");
             a = Convert.ToDouble(Console.ReadLine());
@@ -57,6 +59,9 @@ namespace semana1_proyecto_consola_calculadora
                     Console.WriteLine($"Tu resultado es : {a} / {b} = " + (a / b));
                     break;
             }
+            //Console.Clear();
+            //Console.BackgroundColor = ConsoleColor.Blue;
+            //((Console.ForegroundColor = ConsoleColor.White;
 
             Console.Write("Presione cualquier tecla para cerrar la aplicación de la consola Calculadora...");
             Console.ReadKey();
