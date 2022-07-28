@@ -20,7 +20,7 @@ namespace semana1_proyecto_consola_calculadora
             Console.ForegroundColor = ConsoleColor.Black;
 
             Console.Title = "Programa de calculadora Basica \n\n";
-            
+
             Console.WriteLine("Calculadora de consola en C#\r");
             Console.WriteLine("------------------------\n");
 
