@@ -48,13 +48,13 @@ namespace semana1_proyecto_consola_calculadora
                     Console.WriteLine($"Tu resultado es: {a} * {b} = " + (a * b));
                     break;
                 case "d":
-                  // Ask the user to enter a non-zero divisor until they do so.
+                    // Ask the user to enter a non-zero divisor until they do so.
                     while (b == 0)
                     {
                         Console.WriteLine("Introduzca un divisor distinto de cero: ");
                         b = Convert.ToInt32(Console.ReadLine());
                     }
-                    Console.WriteLine($"Tu resultado es : {a} / {b} = " + (a/b));
+                    Console.WriteLine($"Tu resultado es : {a} / {b} = " + (a / b));
                     break;
             }
 
