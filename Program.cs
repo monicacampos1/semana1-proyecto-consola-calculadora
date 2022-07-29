@@ -15,7 +15,6 @@ namespace semana1_proyecto_consola_calculadora
             //double c = a + b;
             //double
 
-
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.ForegroundColor = ConsoleColor.Black;
 
@@ -30,12 +29,13 @@ namespace semana1_proyecto_consola_calculadora
             Console.WriteLine("Escribe el segundo numero");
             b = Convert.ToDouble(Console.ReadLine());
 
+
             Console.WriteLine("Eliga una opcion de la sigiente lista:");
             Console.WriteLine("\ta - Sumar");
             Console.WriteLine("\ts - Restar");
             Console.WriteLine("\tm - Multiplicar");
             Console.WriteLine("\td - Dividir");
-            Console.Write("¿Tu opcion es ? ");
+            Console.Write("¿Tu opcion es ? \n");
 
             // Use a switch statement to do the math.
             switch (Console.ReadLine())
@@ -61,7 +61,7 @@ namespace semana1_proyecto_consola_calculadora
             }
             
 
-            Console.Write("Presione cualquier tecla para cerrar la aplicación de la consola Calculadora...");
+            Console.Write("\nPresione cualquier tecla para cerrar la aplicación de la consola Calculadora...");
             Console.ReadKey();
         }
             // Wait for the user to respond before closing.
